@@ -1,0 +1,101 @@
+.server{
+	margin: 0 auto;
+	width: 1260px;height: 340px;
+}
+.server .serverdiv{
+	float: left;
+	width: 150px;height: 238px;margin-right: 16px;
+}
+.server .server_title{
+	float: left;width: 100%;
+	height: 16px;margin-top: 40px;margin-bottom: 20px;
+	background: url(../images/links.png) no-repeat left 5px;
+	font-size: 16px;line-height: 16px;color: #7b7b7a;
+	padding-left: 30px;
+}
+.server .server_top{
+	float: left;width: 150px;height: 80px;
+	margin-bottom: 2px;background-color: #e3e3e3;transition: .5s;
+}
+.server .server_name{
+	float: left;width: 100%;
+	height: 15px;font-size: 15px;
+	line-height: 15px;color: black;text-align: center;
+	margin-top: 18px;transition: .5s;
+}
+.server .server_name2{
+	float: left;width: 100%;
+	height: 12px;color: #9a9a9a;
+	font-size: 12px;line-height: 12px;text-align: center;
+	margin-top: 17px;transition: .5s;
+}
+.server .server_bot{
+	float: left;width: 150px;height: 80px;
+	margin-bottom: 2px;background-color: #e3e3e3;transition: .5s;
+	margin-top: 2px;
+}
+.server .serverdiv a:hover{
+	background-color: #cf1132;
+}
+.server a:hover .server_name{
+	color: white;
+}
+.server a:hover .server_name2{
+	color: white;
+}
+.server .serverdiv_last{
+	float: left;
+	width: 762px;height: 238px;
+}
+.server .serverdiv_last .server_last{
+	float: left;width: 150px;height: 80px;
+	margin-right: 2px;
+	margin-bottom: 2px;background-color: #e3e3e3;transition: .5s;
+}
+.server .serverdiv_last .serverdiv_last .nor{
+	margin-right: 0;
+}
+.server .serverdiv .serverdiv_last .not{
+	margin-top: 0;
+}
+.server .server_last:hover{
+	background-color: #cf1132;
+}
+.server .servlinks{
+	float: left;height: 14px;
+	margin-top: 39px;
+}
+.server .servlinks li{
+	float: left;height: 14px;line-height: 14px;
+}
+.server .servlinks .servlinks_first{
+	color: #3c3937;
+}
+.server .servlinks .servlinks_sep{
+	color: #dadde1;
+    margin: 0 5px;
+    font-size: 12px;
+}
+.server .servlinks a{
+	font-size: 12px;color: #838383;
+}
+.server .servlinks a:hover{
+	color: #cf1132;
+}
+.server .servnum{
+	float: right;
+	margin-top: 38px;margin-right: 160px;
+}
+.server .servnum .servnum_first{
+	font-size: 14px;float: left;height: 18px;line-height: 18px;
+}
+.server .servnum .servnum_sep{
+	float: left;
+	color: #dadde1;
+	margin: 0 5px;
+	font-size: 12px;
+}
+.server .servnum .num{
+	font-size: 18px;color: #171410;float: left;
+	line-height: 18px;height: 18px;
+}

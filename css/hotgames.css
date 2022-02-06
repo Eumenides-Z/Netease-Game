@@ -1,0 +1,163 @@
+.hotgame{
+	width: 1260px;height: 708px;
+	margin: 40px auto;
+}
+.hotgame .hotgame_left{
+	float: left;
+	width: 942px;height: 100%;
+}
+.hotgame .hotgame_title{
+	position: relative;
+	float: left;border-left: 4px solid #cc0225;
+	width: 938px;height: 22px;line-height: 22px;font-size: 22px;
+	color: #000000;text-indent: 20px;
+}
+.hotgame .hotgame_title .turn{
+	position: absolute;right: 0;top: 0;
+	background: url(../images/turn.png) no-repeat right top;
+	height: 22px;font-size: 16px;line-height: 22px;
+	width: 68px;padding-right: 31px;cursor: pointer;
+}
+.hotgame_cont{
+	float: left;
+	width: 942px;height: 656px;
+	margin-top: 30px;
+}
+.hotgame_cont li{
+	position: relative;
+	float: left;
+	width: 300px;height: 318px;
+	margin-right: 20px;margin-bottom: 20px;
+	background-color: #ffffff;overflow: hidden;
+	transition: .5s;
+}
+.hotgame_cont li.scale{
+	transform: scale(0);
+}
+.hotgame_cont li .game_ewm{
+	position: absolute;left: 0;
+	float: left;width: 100%;height: 170px;
+	transform: translateY(-100%);
+	transition: .3s;background: rgba(255,0,0,0.5);
+}
+.hotgame_cont li .game_ewm .game_ewm_img{
+	width: 111px;height: 100%;float: left;
+}
+.hotgame_cont li .game_ewm .game_ewm_img img{
+	width: 80px;height: 80px;float: left;
+	margin-top: 45px;margin-left: 15px;
+}
+.hotgame_cont li .game_ewm .game_ewm_right{
+	float: left;width: 189px;height: 100%;
+}
+.hotgame_cont li .game_ewm .game_ewm_right .right_top{
+	float: left;width: 100%;height: 14px;font-size: 14px;
+	line-height: 14px;margin-top: 50px;color: #f9f2f2;
+	font-weight: bold;
+}
+.hotgame_cont li .game_ewm .game_ewm_right .right_bot{
+	float: left;margin-top: 13px;width: 100%;height: 14px;
+	background: url(../images/down_load.png) no-repeat left center;
+	font-size: 14px;font-weight: bold;text-indent: 18px;
+	color: #f9f2f2;
+}
+.hotgame_cont li:hover .game_ewm{
+	transform: translateY(0%);
+}
+
+
+.hotgame_cont li.game_sublast{
+	margin-right: 0;
+}
+.hotgame_cont li.game_bot{
+	margin-bottom: 0;
+}
+.hotgame_cont li.game_last{
+	margin: 0;
+}
+.hotgame_cont li .hotimg{
+	float: left;
+	width: 100%;height: 170px;
+	background: url(../images/game-list-img.png);
+}
+.hotgame_cont li h2{
+	float: left;
+	margin-top: 20px;
+	height: 19px;font-size: 19px;line-height: 19px;
+	text-indent: 16px;
+}
+.hotgame_cont li .game_text{
+	float: left;
+	width: 268px;height: 57px;
+	margin: 7px 16px;color: #ababab;
+    font-size: 14px;
+    line-height: 22px;border-bottom: 1px solid #efefef;
+	margin-bottom: 0;
+}
+.hotgame_cont li .game_enter{
+	position: absolute;
+	right: 20px;bottom: 16px;
+	background: url(../images/right-jt.png) no-repeat right center;
+	height: 16px;font-size: 12px;
+    color: #a4a4a4;padding-right: 21px;
+}
+
+.newgame{
+	float: left;
+	width: 298px;height: 708px;
+	margin-left: 20px;margin-top: 0;
+}
+.newgame .newgame_title{
+	float: left;
+	width: 294px;height: 22px;
+	border-left: 4px solid #cc0225;font-size: 22px;line-height: 22px;
+	text-indent: 20px;color: black;
+}
+.newgame .newgame_adv{
+	display: block;float: left;margin-top: 30px;
+	width: 298px;height: 108px;
+	background: url(../images/games.png);
+}
+.newgame .newgame_ul{
+	float: left;
+	width: 298px;height: 555px;
+}
+.newgame .newgame_ul li{
+	float: left;width: 296px;height: 109px;
+	border: 1px solid #efefef;border-top: none;
+	background: url(../images/group_next.png) no-repeat 262px center;
+	transition: .3s;
+}
+.newgame .newgame_ul li a{
+	float: left;width: 100%;height: 100%;
+}
+.newgame .newgame_ul li .newgame_ul_left{
+	float: left;width: 115px;height: 100%;
+}
+.newgame .newgame_ul li .newgame_ul_left img{
+	width: 68px;height: 68px;
+	margin-top: 22px;margin-left: 26px;
+}
+.newgame .newgame_ul li .newgame_ul_right{
+	float: left;width: 181px;height: 100%;
+}
+.newgame .newgame_ul li .newgame_ul_right h4{
+	float: left;width: 100%;height: 15px;
+	margin-top: 26px;font-size: 15px;line-height: 15px;
+	font-weight: bold;color: black;
+}
+.newgame .newgame_ul li .newgame_ul_right .right_text{
+	float: left;width: 100%;height: 14px;
+	margin-top: 8px;font-size: 14px;line-height: 14px;
+	color: #787878;
+}
+.newgame .newgame_ul li .newgame_ul_right .right_time{
+	float: left;width: 100%;height: 15px;
+	background: url(../images/clock.png) no-repeat left;
+	font-size: 12px;line-height: 15px;
+	margin-top: 11px;text-indent: 21px;color: #787878;
+}
+.newgame .newgame_ul li:hover{
+	background: url(../images/group_next_hover.png) no-repeat 262px center;
+	background-color: #f0f2f7;
+}
